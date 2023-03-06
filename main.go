@@ -8,6 +8,8 @@ import (
 	"github.com/joho/godotenv"
 )
 
+//https://tamerlan.dev/creating-go-rest-api/ testing
+
 func main() {
 	godotenv.Load()
 
