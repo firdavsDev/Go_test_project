@@ -16,3 +16,7 @@ func respondWithJSON(w http.ResponseWriter, code int, payload interface{}) {
 	w.WriteHeader(code)
 	w.Write(response)
 }
+
+func RespondWithJSON(w http.ResponseWriter, code int, payload interface{}) {
+	respondWithJSON(w, code, payload)
+}

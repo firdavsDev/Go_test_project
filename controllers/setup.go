@@ -3,6 +3,8 @@ package controllers
 import (
 	"net/http"
 
+	// swagger:route GET /quests quests listQuests
+
 	"github.com/gorilla/mux"
 )
 
